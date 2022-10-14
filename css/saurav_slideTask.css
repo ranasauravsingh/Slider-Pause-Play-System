@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+img,
+video {
+	width: 270px;
+	height: 180px;
+}
+.container {
+	width: 1270px;
+	margin: 10px auto;
+}
+input {
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 25%;
+	border: 1px solid lightgrey;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.mainFlex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+td {
+	padding: 10px;
+}
+video {
+	display: none;
+}

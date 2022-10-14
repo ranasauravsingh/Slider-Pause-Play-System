@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="./css/saurav_slideTask.css" />
+
+<div class="container">
+	<table border="1">
+		<tr>
+			<td>
+				<img id="showImage1" src="./saurav_slideTaskImages/land1.jfif" alt="" />
+				<video
+					id="showVideo1"
+					controls="true"
+					controlslist="nodownload"
+					loop="loop"
+					muted
+					playsinline
+				>
+					<source
+						id="vidSrc1"
+						src="./saurav_slideTaskImages/video1.m4v"
+						type="video/mp4"
+					/>
+					Your browser does not support the video tag.
+				</video>
+				<div class="mainFlex">
+					<input
+						type="button"
+						value="<"
+						onclick="left('cnt1')"
+						id="leftBtn1"
+						disabled
+					/>
+					<input
+						type="button"
+						value=">"
+						onclick="right('cnt1')"
+						id="rightBtn1"
+					/>
+				</div>
+			</td>
+
+			<td>
+				<img id="showImage2" src="./saurav_slideTaskImages/land1.jfif" alt="" />
+				<video
+					id="showVideo2"
+					controls="true"
+					controlslist="nodownload"
+					loop="loop"
+					muted
+					playsinline
+				>
+					<source
+						id="vidSrc2"
+						src="./saurav_slideTaskImages/video1.m4v"
+						type="video/mp4"
+					/>
+					Your browser does not support the video tag.
+				</video>
+				<div class="mainFlex">
+					<input
+						type="button"
+						value="<"
+						onclick="left('cnt2')"
+						id="leftBtn2"
+						disabled
+					/>
+					<input
+						type="button"
+						value=">"
+						onclick="right('cnt2')"
+						id="rightBtn2"
+					/>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"
+></script>
+
+<script src="./js/saurav_slideTask.js"></script>
